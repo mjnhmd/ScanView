@@ -28,13 +28,22 @@ public class ScanView extends View
     private int start;
     private int centerX;
     private int centerY;
-    private int circleColor = Color.parseColor("#12ff34");
-    private int radarColor = Color.parseColor("#1234ff");
+    private int circleColor = Color.parseColor("#008000");
+    private int radarColor = Color.parseColor("#32CD32");
     private int tailColor = Color.parseColor("#00ffffff");
     private int centerColor = Color.parseColor("#ffffff");
+    //彩虹，太丑了！
+//    private int color1 = Color.parseColor("#FF0000");
+//    private int color2 = Color.parseColor("#FF7F00");
+//    private int color3 = Color.parseColor("#FF7F00");
+//    private int color4 = Color.parseColor("#00FF00");
+//    private int color5 = Color.parseColor("#00FF00");
+//    private int color6 = Color.parseColor("#0000FF");
+//    private int color7 = Color.parseColor("#8B00FF");
+//    private float[] positions = {0, 0.3f, 0.4f, 0.5f, 0.6f, 0.7f, 0.8f, 0.9f, 1.0f};
+//    int[] colors = {tailColor, color7, color6, color5, color4, color3, color2, color1, tailColor };
     private float[] positions = {0, 0.3f, 1.0f};
     int[] colors = {tailColor, tailColor, radarColor };
-
     private Paint mPaintCircle;
     private Paint mPaintRadar;
     private Paint mPaintCenter;
