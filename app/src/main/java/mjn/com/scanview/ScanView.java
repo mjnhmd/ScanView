@@ -15,7 +15,7 @@ import android.view.View;
 
 /**
  * Created by mengjingnan on 2017/10/26.
- * 用于圈子地图找人页面雷达扫描效果。
+ * 雷达扫描效果。
  */
 public class ScanView extends View
 {
@@ -28,8 +28,8 @@ public class ScanView extends View
     private int start;
     private int centerX;
     private int centerY;
-    private int circleColor = Color.parseColor("#ff552e");
-    private int radarColor = Color.parseColor("#fb7a5c");
+    private int circleColor = Color.parseColor("#12ff34");
+    private int radarColor = Color.parseColor("#1234ff");
     private int tailColor = Color.parseColor("#00ffffff");
     private int centerColor = Color.parseColor("#ffffff");
     private float[] positions = {0, 0.3f, 1.0f};
